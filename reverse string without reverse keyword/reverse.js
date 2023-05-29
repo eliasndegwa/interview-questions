@@ -3,6 +3,6 @@
 const reverseString=(string)=>{
     return string.split("").reduce((prev,cur)=>{return cur+prev})
 }
-reverseString("hello")
+console.log(reverseString("hello"));
 
-export default{reverseString}
+module.exports= reverseString

@@ -1,13 +1,13 @@
-import reverseString from './index'
+const reverseString=require('../reverse string without reverse keyword/reverse')
 
 test('should have a function reverseString defined',()=>{
     expect(reverseString).toBeDefined()
 })
 
-test('should have a defined return statement',()=>{
-    let result=reverseString(input)
-      expect(result).toBeDefined()
-})
+// test('should have a defined return statement',()=>{
+//     let result=reverseString(input)
+//       expect(result).toBeDefined()
+// })
 test('should return a string',()=>{
     let input ="hello"
     let result=reverseString(input)

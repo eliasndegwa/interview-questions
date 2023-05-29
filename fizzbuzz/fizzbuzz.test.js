@@ -1,4 +1,4 @@
-const fizzBuzz=require('../fizzbuzz/index')
+const fizzBuzz=require('./fizzbuzz')
 
 test('should print the correct FizzBuzz sequence up to 20', () => {
   const consoleSpy = jest.spyOn(console, 'log');
